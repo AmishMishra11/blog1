@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog coomponent liberary</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
+
   <body>
     <h1>My Blog</h1>
     <p>this is my first blog</p>
@@ -20,15 +22,15 @@
     <br />
 
     <h2>@section</h2>
-    <section>
-      <div>
+    <section class="section">
+      <div class="container container-center">
         <h1>white section</h1>
         <p>this will have white background</p>
         <img src="images/header image.jpg" width="500" height="350" />
       </div>
     </section>
-    <section>
-      <div>
+    <section class="section ow">
+      <div class="container container-center">
         <h1>off white section</h1>
         <p>this will have grey background</p>
       </div>
@@ -37,23 +39,25 @@
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>this will go till the end of the page</div>
+    <div class="container">this will go till the end of the page</div>
     <h3>center container</h3>
-    <div>this will go till specific width</div>
+    <div class="container container-center">
+      this will go till specific width
+    </div>
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
       <li>one</li>
       <li>two</li>
       <li>three</li>
     </ul>
 
     <h3>unordered list in same line</h3>
-    <ul>
-      <li>one</li>
-      <li>two</li>
-      <li>three</li>
+    <ul class="list-non-bullet">
+      <li class="list-inline">one</li>
+      <li class="list-inline">two</li>
+      <li class="list-inline">three</li>
     </ul>
 
     <h3>ordered list</h3>
@@ -65,17 +69,20 @@
     <br />
 
     <h2>@links</h2>
-    <a href="/">Primary</a>
-    <br />
-    <a href="/">Secondary</a>
+    <a class="link link-primary" href="/">Primary</a>
+    <a class="link link-secondary" href="/">Secondary</a>
     <br />
 
     <h2>@footer</h2>
-    <footer>
-      <div>some small heading</div>
-      <ul>
-        <li><a href="/">social one</a></li>
-        <li><a href="/">social two</a></li>
+    <footer class="footer">
+      <div class="footer footer-heading">some small heading</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-inline">
+          <a class="link" href="/">social one</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="/">social two</a>
+        </li>
       </ul>
     </footer>
   </body>
