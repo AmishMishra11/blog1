@@ -11,7 +11,7 @@ body {
 }
 
 .section {
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .section h1 {
@@ -37,6 +37,9 @@ body {
 .list-inline {
   display: inline;
   padding: 0rem 1rem;
+}
+.lists {
+  padding: 1rem 0rem;
 }
 
 .link {
