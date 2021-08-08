@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;700&display=swap");
 
 :root {
-  --primary: #fbbf24;
-  --secondary: #fef3c7;
+  --primary: #189ab4;
+  --secondary: #d4f1f4;
 }
 
 body {
@@ -58,7 +58,7 @@ body {
 }
 
 .footer {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   padding: 2rem;
   text-align: center;
   color: white;
